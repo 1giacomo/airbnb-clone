@@ -26,11 +26,14 @@ const CategoryBox: React.FC<CategoryBoxProps> = ({
       currentQuery = qs.parse(params.toString());
     }
 
+    // Select the category in the url
     const updatedQuery: any = {
       ...currentQuery,
       category: label,
     };
 
+    // Remove the selected if already been selected
+    // -> so we remove it
     if (params?.get("category") === label) {
       delete updatedQuery.category;
     }
