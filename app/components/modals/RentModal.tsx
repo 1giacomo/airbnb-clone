@@ -14,10 +14,9 @@ import Counter from "../inputs/Counter";
 import CategoryInput from "../inputs/CategoryInput";
 import CountrySelect from "../inputs/CountrySelect";
 import { categories } from "../navbar/Categories";
-// import ImageUpload from "../inputs/ImageUpload";
+import ImageUpload from "../inputs/ImageUpload";
 import Input from "../inputs/Input";
 import Heading from "../Heading";
-import Map from "../Map";
 
 enum STEPS {
   CATEGORY = 0,
@@ -210,10 +209,10 @@ const RentModal = () => {
           title="Add a photo of your place"
           subtitle="Show guests what your place looks like!"
         />
-        {/* <ImageUpload
+        <ImageUpload
           onChange={(value) => setCustomValue("imageSrc", value)}
           value={imageSrc}
-        /> */}
+        />
       </div>
     );
   }
