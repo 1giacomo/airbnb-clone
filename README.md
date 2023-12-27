@@ -32,9 +32,11 @@ npm run dev
 ## Screenshots
 
 ![Homepage](/images/homepage.gif)
+
 *Homepage displaying featured accommodations.*
 
 ![Search Results](/images/search-results.gif)
+
 *Search results for accommodations in a specific location.*
 
 
